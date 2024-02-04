@@ -1,0 +1,9 @@
+type: Floor
+mapColor: 6084b6
+variants: 0
+speedMultiplier: 0.18
+drownTime: 180
+cacheLayer: water
+isLiquid: true
+liquidDrop: water
+liquidMultiplier: 1.35
