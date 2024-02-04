@@ -1,5 +1,4 @@
-type: StaticBlock
+type: StaticWall
 size: 3
-color: 87985a
+mapColor: 87985a
 variants: 3
-shadowOffset: -2.5
