@@ -1,4 +1,16 @@
-type: StaticWall
+type: Wall
 size: 3
 mapColor: 87985a
 variants: 3
+update: true
+breakable: true
+destructible: false
+drawTeamOverlay: false
+health: 2147483647
+armor: 2147483647
+customShadow: true
+targetable: false
+underBullets: true
+buildVisibility: editorOnly
+instantDeconstruct: false
+destructible: false
