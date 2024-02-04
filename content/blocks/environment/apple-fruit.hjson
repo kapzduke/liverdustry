@@ -1,0 +1,4 @@
+type: StaticWall
+variants: 0
+mapColor: 87985a
+customShadow: true
