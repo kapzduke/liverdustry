@@ -1,4 +1,5 @@
 type: TallBlock
+size: 3
 color: 60925b
 variants: 3
 shadowOffset: -2.5
