@@ -1,0 +1,6 @@
+type: Liquid
+color: a5d5ff
+temperature: 0.15
+viscosity: 0.55
+heatCapacity: 0.75 //not a better cryo substitute
+effect: freezing
