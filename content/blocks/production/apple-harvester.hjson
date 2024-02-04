@@ -25,7 +25,7 @@ research: {
     combustion-generator	    
     {
       type: OnSector
-	   	preset: frozen-forest
+	   	preset: frozenForest
   	}
   ]
 }
