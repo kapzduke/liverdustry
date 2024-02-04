@@ -1,6 +1,6 @@
 name: liverdustry
-displayName: Liverdustry
+displayName: "Liverdustry"
 author: "kapzduke"
 description: "A supercalifragilisticexpialidocious introduction to basic json modding."
-version: "ery well"
-minGameVersion: "135"
+version: "0"
+minGameVersion: "145"
