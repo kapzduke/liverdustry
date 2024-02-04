@@ -5,7 +5,7 @@ requirements: [
   copper/100
   lead/60
 ]
-drillTime: 50
+drillTime: 150
 attribute: apple
 consumes: {
   power: 0.3333333333333333
