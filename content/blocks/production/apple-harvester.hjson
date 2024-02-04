@@ -13,10 +13,10 @@ consumes: {
     liquid: frost-oil 
     amount: 0.05
     booster: true
-    liquidBoostIntensity: 1.75
     optional: true
   }
 }
+liquidBoostIntensity: 1.75
 output: apple
 category: production
 research: {
