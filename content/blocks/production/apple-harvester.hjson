@@ -1,0 +1,31 @@
+type: WallCrafter
+scaledHealth: 40
+size: 3
+requirements: [
+  copper/100
+  lead/60
+]
+drillTime: 150
+attribute: apple
+consumes: {
+  power: 0.3333333333333333
+  liquid: {
+    liquid: frost-oil 
+    amount: 0.05
+    booster: true
+    liquidBoostIntensity: 1.75
+    optional: true
+  }
+}
+output:apple/3
+category: production
+research: {
+  parent: pneumatic-drill
+  objectives: [
+    combustion-generator	    
+    {
+      type: OnSector
+	   	preset: frozen-forest
+  	}
+  ]
+}
