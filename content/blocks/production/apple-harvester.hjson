@@ -5,7 +5,7 @@ requirements: [
   copper/100
   lead/60
 ]
-drillTime: 150
+drillTime: 50
 attribute: apple
 consumes: {
   power: 0.3333333333333333
@@ -17,7 +17,7 @@ consumes: {
     optional: true
   }
 }
-output:apple/3
+output: apple
 category: production
 research: {
   parent: pneumatic-drill
