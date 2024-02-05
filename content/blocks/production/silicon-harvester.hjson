@@ -3,9 +3,9 @@ scaledHealth: 40
 size: 3
 requirements: [
   silicon/80
-  plastanium/65
-  chirunium/80
+  plastanium/60
   apple/50
+  chirunium/80
 ]
 drillTime: 200
 attribute: silicon
