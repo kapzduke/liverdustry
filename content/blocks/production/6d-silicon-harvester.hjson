@@ -11,7 +11,12 @@ drillTime: 200
 attribute: silicon
 consumes: {
   power: 1
+  liquids: [
+    {
+      liquid: water
+      amount: 0.15
+    }
+  ]
 }
-liquidBoostIntensity: 1.75
 output: silicon
 category: production
