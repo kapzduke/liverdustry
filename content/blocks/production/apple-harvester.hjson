@@ -5,16 +5,10 @@ requirements: [
   copper/100
   lead/60
 ]
-drillTime: 150
+drillTime: 175
 attribute: apple
 consumes: {
-  power: 0.3333333333333333
-  liquid: {
-    liquid: frost-oil 
-    amount: 0.05
-    booster: true
-    optional: true
-  }
+  power: 1
 }
 liquidBoostIntensity: 1.75
 output: apple
