@@ -1,0 +1,17 @@
+type: WallCrafter
+scaledHealth: 40
+size: 3
+requirements: [
+  lead/100
+  silicon/75
+  apple/50
+  chirunium/50
+]
+drillTime: 200
+attribute: silicon
+consumes: {
+  power: 1
+}
+liquidBoostIntensity: 1.75
+output: silicon
+category: production
