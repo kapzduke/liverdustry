@@ -1,0 +1,18 @@
+type: WallCrafter
+scaledHealth: 40
+size: 3
+requirements: [
+  copper/100
+  lead/60
+]
+drillTime: 170
+attribute: banana
+consumes: {
+  power: 1
+}
+liquidBoostIntensity: 1.75
+output: banana
+category: production
+research: {
+  parent: apple-harvester
+}
