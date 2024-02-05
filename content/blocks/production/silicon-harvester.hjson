@@ -2,10 +2,10 @@ type: WallCrafter
 scaledHealth: 40
 size: 3
 requirements: [
-  lead/100
-  silicon/75
+  silicon/80
+  plastanium/65
+  chirunium/80
   apple/50
-  chirunium/50
 ]
 drillTime: 200
 attribute: silicon
