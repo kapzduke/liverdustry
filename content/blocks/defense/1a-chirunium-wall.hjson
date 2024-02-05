@@ -1,0 +1,10 @@
+type: Wall
+scaledHealth: 405
+armor: 1
+requirements: [
+  chirunium/6
+]
+category: defense
+research: {
+  parent: copper-wall
+}
