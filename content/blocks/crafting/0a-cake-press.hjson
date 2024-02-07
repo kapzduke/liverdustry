@@ -1,0 +1,25 @@
+type: GenericCrafter
+scaledHealth: 40
+size: 2
+requirements: [
+  copper/45
+  apple/30
+]
+craftEffect: pulverizeMedium
+craftTime: 130
+hasItems: true
+drawer: {
+type: DrawDefault
+}
+ambientSound: machine
+ambientSoundVolume: 0.05
+consumes: {
+  items: {
+    items: [
+      apple/3
+    ]
+  }
+}
+outputItem: pomace/1
+category: crafting
+research: apple-harvester
