@@ -11,17 +11,18 @@ requirements: [
 ]
 drillTime: 280
 consumes: {
+  power: 1.6666666666666667
+  }
   items: {
-  	power: 1.6666666666666667
     items: [
       pyratite/1
     ]
-    {
-		  liquid: slag
-	  	amount: 0.8333333333333333
-	  	booster: true
-  		optional: true
-    }
+  }
+  {
+    liquid: slag
+    amount: 0.8333333333333333
+    booster: true
+    optional: true
   }
 }
 rotateSpeed: 5.75
