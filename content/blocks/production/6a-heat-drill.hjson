@@ -12,7 +12,6 @@ requirements: [
 drillTime: 280
 consumes: {
   power: 1.6666666666666667
-  }
   items: {
     items: [
       pyratite/1
