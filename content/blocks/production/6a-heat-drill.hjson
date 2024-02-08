@@ -9,7 +9,22 @@ requirements: [
   pomace/40
   //split/25
 ]
-drillTime: 280
+drawer: {
+  type: DrawMulti
+  iconOverride: [
+    -icon
+  ]
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      color: feb380
+      glowScale: 7.5
+    }
+  ]
+}
 consumes: {
   power: 1.6666666666666667
   items: {
@@ -24,6 +39,8 @@ consumes: {
     optional: true
   }
 }
+drillTime: 280
+drawRim: true
 rotateSpeed: 5.75
 warmupSpeed: 0.0075
 ambientSound: smelter
