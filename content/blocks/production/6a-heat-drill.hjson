@@ -31,14 +31,14 @@ consumes: {
   power: 1.6666666666666667
   liquid: {
     liquid: slag
-    amount: 0.8333333333333333
+    amount: 0.08333333333333333
     booster: true
     optional: true
   }
 }
 drillTime: 400
 updateEffect: pulverizeRed
-updateEffectChance: 3
+updateEffectChance: 0.03
 drawRim: true
 rotateSpeed: 5.75
 warmupSpeed: 0.0075
