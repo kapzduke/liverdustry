@@ -32,7 +32,7 @@ consumes: {
       pyratite/1
     ]
   }
-  {
+  liquid: {
     liquid: slag
     amount: 0.8333333333333333
     booster: true
