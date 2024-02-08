@@ -3,11 +3,11 @@ scaledHealth: 40
 size: 5
 tier: 4
 requirements: [
-  copper/150
-  graphite/80
-  silicon/80
-  pomace/40
-  //split/25
+  lead/125
+  graphite/85
+  silicon/60
+  pomace/60
+  //split/30
 ]
 drawer: {
   type: DrawMulti
@@ -27,11 +27,6 @@ drawer: {
 }
 consumes: {
   power: 1.6666666666666667
-  items: {
-    items: [
-      pyratite/1
-    ]
-  }
   liquid: {
     liquid: slag
     amount: 0.8333333333333333
@@ -39,7 +34,7 @@ consumes: {
     optional: true
   }
 }
-drillTime: 280
+drillTime: 250
 drawRim: true
 rotateSpeed: 5.75
 warmupSpeed: 0.0075
