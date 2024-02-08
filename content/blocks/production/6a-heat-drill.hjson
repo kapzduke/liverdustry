@@ -1,0 +1,34 @@
+type: Drill
+scaledHealth: 40
+size: 5
+requirements: [
+  copper/150
+  graphite/80
+  silicon/80
+  pomace/40
+  //split/25
+]
+drillTime: 280
+consumes: {
+  items: {
+  	power: 1.6666666666666667
+    items: [
+      pyratite/1
+    ]
+    {
+		  liquid: slag
+	  	amount: 0.8333333333333333
+	  	booster: true
+  		optional: true
+    }
+  }
+}
+rotateSpeed: 5.75
+warmupSpeed: 0.0075
+ambientSound: smelter
+ambientSoundVolume: 0.02
+liquidBoostIntensity: 1.625
+category: production
+research: {
+  parent: laser-drill
+}
