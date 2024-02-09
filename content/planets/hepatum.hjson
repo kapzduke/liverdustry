@@ -1,1 +1,71 @@
-
+radius: 0.9
+minZoom: 0.7
+camRadius: 0
+parent: serpulo
+orbitRadius: 10
+bloom: true
+accessible: true
+alwaysUnlocked: true
+visible: true
+iconColor: 7da050
+hasAtmosphere: true
+atmosphereColor: 98d7f9
+atmosphereRadIn: 0.075
+atmosphereRadOut: 0.275
+updateLighting: true
+sectorSize: 3
+startSector: 7
+generator: AsteroidGenerator
+mesh: [
+  {
+    type: NoiseMesh
+    divisions: 5
+    radius: 0.9
+    color1: 4553A4
+    color2: 516FAB
+    octaves: 1
+    persistence: 0.0001
+    scale: 0.0001
+    mag: 1
+    coct: 1
+    cper: 1
+    cscl: 1
+    cthresh: 1
+  }
+  {
+    type: NoiseMesh
+    radius: 0.735
+    color1: 323935
+    color2: 3F523D
+    colorScale: 1.2
+    colorPersistence: 3
+    colorOct: 3
+    colorThreshold: 0.7
+    seed: 10052022
+    scale: 0.7
+    octaves: 6
+    divisions: 6
+    mag: 1.45
+  }
+]
+itemWhitelist: [
+  copper,
+  lead,
+  graphite,
+  silicon,
+  metaglass,
+  thorium,
+  phase-fabric,
+  apple,
+  banana
+  chirunium,
+  chocolate,
+  cookie,
+  grapes,
+  pomace,
+  santalum,
+  satanlum,
+  split,
+  //raisin,
+  
+]
