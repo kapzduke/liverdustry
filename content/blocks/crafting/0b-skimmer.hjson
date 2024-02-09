@@ -1,0 +1,39 @@
+type: GenericCrafter
+scaledHealth: 40
+size: 2
+requirements: [
+  lead/90
+  graphite/75
+  silicon/60
+  chirunium/60
+]
+craftEffect: plasticBurn
+craftTime: 75
+hasItems: true
+drawer: {
+  type: DrawMulti
+  iconOverride: [
+    -icon
+  ]
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFade
+    }
+  ]
+}
+ambientSound: cutter 
+ambientSoundVolume: 0.05 //might become unbearable in large schematics
+consumes: {
+  items: {
+    items: [
+      banana/2
+      chirunium/2
+    ]
+  }
+}
+outputItem: split/1
+category: crafting
+research: 0a-cake-press
