@@ -34,15 +34,15 @@ mesh: [
   }
   {
     type: NoiseMesh
-    radius: 0.93
+    radius: 0.913
     color1: 6aa85e
     color2: 7b9b52
     colorScale: 1.2
     colorPersistence: 3
     colorOct: 3
     colorThreshold: 0.7
-    seed: 10052022
-    scale: 0.7
+    seed: 7
+    scale: 0.35
     octaves: 6
     divisions: 6
     mag: 1.45
