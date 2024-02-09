@@ -1,0 +1,92 @@
+type: ItemTurret
+size: 2
+scaledHealth: 240
+requirements: [ 
+  copper/90 
+  chirunium/70
+  pomace/35
+]
+targetAir: true
+targetGround: true
+rotateSpeed: 5
+recoil: 3
+recoilTime: 36
+reload: 24
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: "-barrel"
+      mirror: false
+      layerOffset: -0.002
+      under: true
+      progress: recoil
+      moveY: -2.25
+    }
+    {
+      type: RegionPart
+      suffix: "-top"
+      mirror: false
+      layerOffset: 0
+      under: false
+      outline: false
+    }
+  ]
+}
+shoot: {
+  type: ShootBarrel
+  barrels: [
+   -2, 14, 0,
+    0, 14, 0,
+    2, 14, 0,
+  ]
+  shots: 3
+}
+shootSound: shootBig
+ammoPerShot: 2
+ammoTypes: {
+		copper: {
+      ammoMultiplier: 3
+      type: BasicBulletType
+      speed: 2.75
+      damage: 13
+      lifetime: 60
+      width: 8
+      height: 10
+    }
+		graphite: {
+      ammoMultiplier: 4
+      reloadMultiplier: 0.6
+      type: BasicBulletType
+      speed: 3.75
+      damage: 21
+      lifetime: 60
+      width: 9.5
+      height: 11.5
+    }
+		silicon: {
+      ammoMultiplier: 5
+      reloadMultiplier: 1.5
+      type: BasicBulletType
+      speed: 3.45
+      damage: 15
+      lifetime: 60
+      homingPower: 0.05
+      width: 8
+      height: 10
+    }
+    pomace: {
+      ammoMultiplier: 3
+      reloadMultiplier: 0.45
+      type: BasicBulletType
+      speed: 3.65
+      damage: 46
+      lifetime: 60
+      width: 9.5
+      height: 11.5
+    }
+  }
+}
+category: turret
+research: hail
