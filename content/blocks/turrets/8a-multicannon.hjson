@@ -6,6 +6,8 @@ requirements: [
   chirunium/70
   pomace/35
 ]
+liquidCapacity: 20 //the secret to allowing coolants for a turret
+range: 150
 targetAir: true
 targetGround: true
 rotateSpeed: 5
@@ -38,9 +40,9 @@ drawer: {
 shoot: {
   type: ShootBarrel
   barrels: [
-   -2, 3.25, 0,
-    0, 3.25, 0,
-    2, 3.25, 0,
+   -2, 1.6, 0,
+    0, 1.6, 0,
+    2, 1.6, 0,
   ]
   shots: 3
 }
