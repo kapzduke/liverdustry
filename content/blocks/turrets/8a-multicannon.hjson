@@ -12,6 +12,7 @@ rotateSpeed: 5
 recoil: 3
 recoilTime: 36
 reload: 24
+inaccuracy: 3.5
 drawer: {
   type: DrawTurret
   parts: [
@@ -37,9 +38,9 @@ drawer: {
 shoot: {
   type: ShootBarrel
   barrels: [
-   -2, 14, 0,
-    0, 14, 0,
-    2, 14, 0,
+   -2, 7, 0,
+    0, 7, 0,
+    2, 7, 0,
   ]
   shots: 3
 }
