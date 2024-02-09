@@ -6,7 +6,6 @@ requirements: [
   chirunium/70
   pomace/35
 ]
-liquidCapacity: 20 //the secret to allowing coolants for a turret
 range: 150
 targetAir: true
 targetGround: true
@@ -80,8 +79,8 @@ ammoTypes: {
     height: 10
   }
   pomace: {
-    backColor: a9cb9e
-    frontColor: ebfade
+    backColor: d2c68b
+    frontColor: f5f8e3
     ammoMultiplier: 3
     reloadMultiplier: 0.45
     type: BasicBulletType
@@ -91,6 +90,12 @@ ammoTypes: {
     width: 9.5
     height: 11.5
   }
+}
+liquidCapacity: 20
+consumes: {
+	coolant: {
+		amount: 0.2
+	}
 }
 category: turret
 research: hail
