@@ -1,6 +1,5 @@
-type: Prop
+type: TallBlock
 mapColor: 60925b
 variants: 3
 customShadow: true
-breakable: false
-alwaysReplace: false
+rotationRand: 5
