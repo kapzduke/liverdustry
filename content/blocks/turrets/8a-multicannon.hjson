@@ -80,6 +80,8 @@ ammoTypes: {
     height: 10
   }
   pomace: {
+    backColor: a9cb9e
+    frontColor: ebfade
     ammoMultiplier: 3
     reloadMultiplier: 0.45
     type: BasicBulletType
