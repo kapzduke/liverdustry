@@ -7,7 +7,7 @@ requirements: [
   silicon/60
   chirunium/60
 ]
-craftEffect: plasticBurn
+craftEffect: plasticburn
 craftTime: 75
 hasItems: true
 hasPower: true
