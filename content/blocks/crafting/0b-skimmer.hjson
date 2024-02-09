@@ -7,8 +7,8 @@ requirements: [
   silicon/60
   chirunium/60
 ]
-updateEffect: plasticburn
-updateEffectChance: 0.4
+updateEffect: none
+craftEffect: formsmoke
 craftTime: 75
 hasItems: true
 hasPower: true
@@ -20,11 +20,12 @@ drawer: {
     }
     {
       type: DrawGlowRegion
+      color: fae48d
     }
   ]
 }
 ambientSound: cutter 
-ambientSoundVolume: 0.05 //might become unbearable in large schematics
+ambientSoundVolume: 0.05
 consumes: {
   power: 1.5
   items: {
