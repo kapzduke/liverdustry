@@ -38,9 +38,9 @@ drawer: {
 shoot: {
   type: ShootBarrel
   barrels: [
-   -2, 7, 0,
-    0, 7, 0,
-    2, 7, 0,
+   -2, 3.25, 0,
+    0, 3.25, 0,
+    2, 3.25, 0,
   ]
   shots: 3
 }
