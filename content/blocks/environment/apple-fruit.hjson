@@ -2,5 +2,6 @@ type: Prop
 variants: 0
 mapColor: 87985a
 customShadow: true
+solid: true
 breakable: false
 alwaysReplace: false
