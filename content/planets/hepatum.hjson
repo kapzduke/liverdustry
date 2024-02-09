@@ -37,15 +37,15 @@ mesh: [
     radius: 0.905
     color1: 6aa85e
     color2: 7b9b52
-    colorScale: 1.2
-    colorPersistence: 3
+    colorScale: 0.9
+    colorPersistence: 3.4
     colorOct: 3
     colorThreshold: 0.5
     seed: 7
     scale: 0.125
     octaves: 6
     divisions: 6
-    mag: 1.6
+    mag: 2.65
   }
 ]
 itemWhitelist: [
