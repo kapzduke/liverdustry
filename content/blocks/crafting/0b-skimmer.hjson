@@ -7,21 +7,19 @@ requirements: [
   silicon/60
   chirunium/60
 ]
-craftEffect: plasticburn
+updateEffect: plasticburn
+updateEffectChance: 0.4
 craftTime: 75
 hasItems: true
 hasPower: true
 drawer: {
   type: DrawMulti
-  iconOverride: [
-    -icon
-  ]
   drawers: [
     {
       type: DrawDefault
     }
     {
-      type: DrawFade
+      type: DrawGlowRegion
     }
   ]
 }
