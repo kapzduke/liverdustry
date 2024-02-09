@@ -1,4 +1,6 @@
-type: StaticWall
+type: Prop
 variants: 0
 mapColor: 60925b
 customShadow: true
+breakable: false
+alwaysReplace: false
