@@ -7,7 +7,7 @@ requirements: [
   graphite/90
   silicon/65
   pomace/40
-  //split/40
+  split/40
 ]
 squareSprite: false
 drawer: {
@@ -38,7 +38,7 @@ consumes: {
 }
 drillTime: 400
 updateEffect: pulverizeRed
-updateEffectChance: 0.03
+updateEffectChance: 0.035
 drawRim: true
 rotateSpeed: 5.75
 warmupSpeed: 0.0075
