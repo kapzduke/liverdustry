@@ -10,6 +10,7 @@ requirements: [
 craftEffect: plasticBurn
 craftTime: 75
 hasItems: true
+hasPower: true
 drawer: {
   type: DrawMulti
   iconOverride: [
@@ -27,6 +28,7 @@ drawer: {
 ambientSound: cutter 
 ambientSoundVolume: 0.05 //might become unbearable in large schematics
 consumes: {
+  power: 1.5
   items: {
     items: [
       banana/2
