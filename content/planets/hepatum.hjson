@@ -34,7 +34,7 @@ mesh: [
   }
   {
     type: NoiseMesh
-    radius: 0.905
+    radius: 0.75
     color1: 6aa85e
     color2: 7b9b52
     colorScale: 0.9
@@ -45,7 +45,7 @@ mesh: [
     scale: 0.125
     octaves: 6
     divisions: 6
-    mag: 2.65
+    mag: 4
   }
 ]
 itemWhitelist: [
