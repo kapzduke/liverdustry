@@ -1,4 +1,4 @@
-radius: 0.9
+radius: 0.95
 minZoom: 0.7
 camRadius: 0
 parent: sun
@@ -10,42 +10,107 @@ visible: true
 iconColor: 7da050
 hasAtmosphere: true
 atmosphereColor: 98d7f9
-atmosphereRadIn: 0.075
-atmosphereRadOut: 0.275
+atmosphereRadIn: 0
+atmosphereRadOut: 0.2
 updateLighting: true
 sectorSize: 3
-startSector: 7
+startSector: 42
 generator: AsteroidGenerator
 mesh: [
-  {
-    type: NoiseMesh
+  { //watr           this one is stolen from lixie
+    type: NoiseMesh 
     divisions: 5
-    radius: 0.9
-    color1: 4553a4
-    color2: 516fab
+    radius: 0.85
+    color1: 3d4980
+    color2: 3e4a85
     octaves: 1
-    persistence: 0.0001
-    scale: 0.0001
+    persistence: 0.00005
+    scale: 0.00005
     mag: 1
-    coct: 3
-    cper: 1
-    cscl: 0.11
-    cthresh: 1
-  }
-  {
-    type: NoiseMesh
-    radius: 0.75
-    color1: 6aa85e
-    color2: 7b9b52
-    colorScale: 0.9
-    colorPersistence: 3.4
-    colorOct: 3
+    colorOct: 4
+    colorPersistence: 4
+    colorScale: 5
     colorThreshold: 0.5
+  }
+  { //sand
+    type: NoiseMesh
+    radius: 0.81
+    color1: A7896F
+    color2: 312F2F
+    colorOct: 3.5
+    colorScale: 0.2
+    colorThreshold: 0.5
+    colorPersistence: 4
     seed: 7
-    scale: 0.125
-    octaves: 6
+    scale: 0.5
+    octaves: 4.25
+    persistence: 0.7
     divisions: 6
-    mag: 4
+    mag: 1.4
+  }
+  { //gras and dirt
+    type: NoiseMesh
+    radius: 0.783
+    color1: 548448
+    color2: 4F312A
+    colorOct: 4
+    colorScale: 1.1
+    colorThreshold: 0.5
+    colorPersistence: 4
+    seed: 7
+    scale: 0.5
+    octaves: 4.8
+    persistence: 0.7
+    divisions: 6
+    mag: 1.74
+  }
+  { //grassss
+    type: NoiseMesh
+    radius: 0.7738
+    color1: 548448
+    color2: 7B9B52
+    colorOct: 3.5
+    colorScale: 1.3
+    colorThreshold: 0.6
+    colorPersistence: 4
+    seed: 7
+    scale: 0.5
+    octaves: 4.8
+    persistence: 0.7
+    divisions: 6
+    mag: 1.85
+  }
+  { //ice
+    type: NoiseMesh
+    radius: 0.78
+    color1: 9C9EBB
+    color2: 6E72A7
+    colorOct: 4.25
+    colorScale: 2
+    colorThreshold: 0.5
+    colorPersistence: 4
+    seed: 14
+    scale: 0.42
+    octaves: 4
+    persistence: 0.8
+    divisions: 6
+    mag: 1.5
+  }
+  { //ice 2
+    type: NoiseMesh
+    radius: 0.7477
+    color1: 302E2E
+    color2: 4A4665
+    colorOct: 3
+    colorScale: 2
+    colorThreshold: 0.55
+    colorPersistence: 4
+    seed: 14
+    scale: 0.42
+    octaves: 4.25
+    persistence: 0.7
+    divisions: 6
+    mag: 1.8
   }
 ]
 itemWhitelist: [
