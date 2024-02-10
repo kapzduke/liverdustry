@@ -8,3 +8,4 @@ research: {
 }
 captureWave: 25
 difficulty: 1
+alwaysUnlocked: true
