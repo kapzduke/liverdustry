@@ -39,9 +39,9 @@ drawer: {
 shoot: {
   type: ShootBarrel
   barrels: [
-   -2, 1.6, 0,
-    0, 1.6, 0,
-    2, 1.6, 0,
+   -2, 1.25, 0,
+    0, 1.25, 0,
+    2, 1.25, 0,
   ]
   shots: 3
 }
@@ -82,7 +82,7 @@ ammoTypes: {
     backColor: d2c68b
     frontColor: f5f8e3
     ammoMultiplier: 3
-    reloadMultiplier: 0.45
+    reloadMultiplier: 0.3
     type: BasicBulletType
     speed: 3.65
     damage: 46
