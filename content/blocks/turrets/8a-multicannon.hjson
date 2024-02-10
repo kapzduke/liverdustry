@@ -53,7 +53,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 2.75
     damage: 13
-    lifetime: 60
+    lifetime: 40
     width: 8
     height: 10
   }
@@ -63,7 +63,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 3.75
     damage: 21
-    lifetime: 60
+    lifetime: 40
     width: 9.5
     height: 11.5
   }
@@ -73,7 +73,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 3.45
     damage: 15
-    lifetime: 60
+    lifetime: 40
     homingPower: 0.05
     width: 8
     height: 10
@@ -86,7 +86,7 @@ ammoTypes: {
     type: BasicBulletType
     speed: 3.65
     damage: 46
-    lifetime: 60
+    lifetime: 40
     width: 9.5
     height: 11.5
   }
