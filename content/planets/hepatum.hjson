@@ -2,7 +2,6 @@ radius: 0.95
 minZoom: 0.7
 camRadius: 0
 parent: sun
-orbitRadius: 10
 bloom: true
 accessible: true
 alwaysUnlocked: true
@@ -113,6 +112,32 @@ mesh: [
     mag: 1.8
   }
 ]
+cloudMesh: [
+  {
+  type: HexSkyMesh
+  seed: 77
+  speed: 0.155
+  radius: 0.13
+  divisions: 5
+  color: ffffffbc
+  octaves: 2
+  persistence: 0.47
+  scale: 0.9
+  thresh: 0.375
+  }
+  {
+  type: HexSkyMesh
+  seed: 777
+  speed: 0.75
+  radius: 0.16
+  divisions: 5
+  color: eaffffbc
+  octaves: 2
+  persistence: 0.47
+  scale: 1
+  thresh: 0.41
+  }
+]
 itemWhitelist: [
   copper,
   lead,
@@ -132,5 +157,4 @@ itemWhitelist: [
   satanlum,
   split,
   //raisin,
-  
 ]
