@@ -19,7 +19,7 @@ mesh: [
   { //watr           this one is stolen from lixie
     type: NoiseMesh 
     divisions: 5
-    radius: 0.85
+    radius: 0.84
     color1: 3d4980
     color2: 3e4a85
     octaves: 1
@@ -33,7 +33,7 @@ mesh: [
   }
   { //sand
     type: NoiseMesh
-    radius: 0.81
+    radius: 0.8083
     color1: A7896F
     color2: 312F2F
     colorOct: 3.5
@@ -84,9 +84,9 @@ mesh: [
     radius: 0.78
     color1: 9C9EBB
     color2: 6E72A7
-    colorOct: 4.25
+    colorOct: 3.75
     colorScale: 2
-    colorThreshold: 0.5
+    colorThreshold: 0.55
     colorPersistence: 4
     seed: 14
     scale: 0.42
@@ -102,7 +102,7 @@ mesh: [
     color2: 4A4665
     colorOct: 3
     colorScale: 2
-    colorThreshold: 0.55
+    colorThreshold: 0.45
     colorPersistence: 4
     seed: 14
     scale: 0.42
