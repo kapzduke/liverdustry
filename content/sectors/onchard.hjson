@@ -1,0 +1,10 @@
+sector: 42
+planet: hepatum
+research: {
+  parent: frozenForest
+  objectives: [
+    combustion-generator	    
+  ]
+}
+captureWave: 25
+difficulty: 1
