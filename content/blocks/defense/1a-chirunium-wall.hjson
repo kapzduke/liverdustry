@@ -1,5 +1,5 @@
 type: Wall
-scaledHealth: 405
+scaledHealth: 410
 armor: 1
 requirements: [
   chirunium/6
