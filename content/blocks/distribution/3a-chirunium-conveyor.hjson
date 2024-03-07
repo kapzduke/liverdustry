@@ -1,0 +1,9 @@
+type: Conveyor
+scaledHealth: 60
+requirements: [
+  copper/1
+  lead/1
+  chirunium/1
+]
+speed: 0.75
+displaySpeed: 10
